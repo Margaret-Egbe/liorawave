@@ -356,7 +356,7 @@ async def health_check():
         "status": "healthy", 
         "service": "LioraWave AI API",
         "timestamp": time.time(),
-        "ollama_available": False  # We'll check this dynamically
+        "ollama_available": False 
     }
 
 @app.get("/api/business-metrics")
